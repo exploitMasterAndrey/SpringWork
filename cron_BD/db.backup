@@ -1,0 +1,33 @@
+--
+-- PostgreSQL database cluster dump
+--
+
+-- Started on 2022-03-11 10:50:00
+
+SET default_transaction_read_only = off;
+
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+
+--
+-- Roles
+--
+
+CREATE ROLE postgres;
+ALTER ROLE postgres WITH SUPERUSER INHERIT CREATEROLE CREATEDB LOGIN REPLICATION BYPASSRLS PASSWORD 'SCRAM-SHA-256$4096:eMHD+dBwpQtWXldnXXqlLw==$bSNW2XyEZHWswkhbv18fdjkz82saIzk5ah3k9YKZll8=:wO2fyWF2aaSWKtCYa8k1c49R7cKe9Zrks9wGBFoIRmk=';
+
+
+
+
+
+
+--
+-- Databases
+--
+
+--
+-- Database "template1" dump
+--
+
+\connect template1
+
